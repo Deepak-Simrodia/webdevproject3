@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: montserrat;
+}
+#Firstmain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#First1{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 2vmax 1vmax;
+}
+#First1> h1{
+    font-size: 3vmax;
+    color: white;
+    font-family: montserrat;
+    text-align: center;
+    margin-bottom: 4vmax;
+}
+#dot{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#dot >.ri-checkbox-blank-circle-fill{
+    color: rgba(255, 255, 255, 0.324);
+    margin-right: 30px;
+    font-size: 12px;
+    display: inline-block;
+}
+#name{
+    position: absolute;
+    top: 60%;
+    left: 18%;
+}
+#name h2{
+    color: white;
+    font-size: 3vmax;
+}
+#name >h1{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 4vmax;
+}
+#First1 span{
+    color: rgb(15, 15, 15);
+    padding: 10px;
+    background-color: rgb(255, 255, 2);
+    font-weight: 700;
+}
+#First2{
+    width: 70%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-size: contain;
+    background-position: top;
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(14, 13, 13);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1vmax;
+    font-family: montserrat;
+    display: inline-block;
+}
+nav a:hover{
+   color: yellow;
+   padding: 5px;
+    border: 1px solid yellow;
+}
+#First1 h1:hover{
+    color: yellow;
+    cursor: pointer;
+}
+#secondpage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(234, 231, 231, 0.397);
+
+}
+#secondLeft{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+}
+#secondPic{
+    width: 60%;
+    height: 65%;
+    background-image: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8UG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 15%;
+    top: 15%;
+    box-shadow: -40px -40px 0px black;
+}
+#picCircles{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -3.5%;
+    right: 20%;
+}
+#Fcircle{
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#circle{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 238, 0);
+    border-radius: 50%;
+    position: relative;
+}
+#innerCircle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 15px;
+    height: 15px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+#dot2{
+    width: 40%;
+    height: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 83%;
+    right: 5%;
+}
+#dot2 >.ri-checkbox-blank-circle-fill{
+    color: rgb(128, 125, 125);
+    margin-right: 30px;
+    font-size: 7px;
+}
+
+#secondRight{
+    width: 50%;
+    height: 100%;
+    padding: 10% 3%;
+    position: relative;
+}
+#secondRight>h1{
+    font-size: 5vmax;
+    font-weight: 600;
+    margin-top: -15px;
+    display: inline-block;
+    position: absolute;
+}
+#secondRight>h3{
+    margin-left: 10vmax;
+}
+#h1bg{
+    width: 18vmax;
+    height: 1.8vmax;
+    background-color: yellow;
+    position: absolute;
+    top: 28%;
+    left: 7%;
+}
+#secondRight>p{
+    margin-bottom: 2vmax;
+    margin-top: 5vmax;   
+}
+
+#thirdpage{
+    width: 100%;
+    height: 150%;
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#heading{
+    width: 20%;
+    height: 10%;
+    position: relative;
+}
+#heading h1{
+    font-size: 3vmax;
+}
+#heading h3{
+    text-align: right;
+    position: absolute;
+    right: 0;
+}
+#heading #h3bgrnd{
+    width: 190px;
+    height: 20px;
+    right: 0%;
+    top: 50%;
+    background-color: yellow;
+    position: absolute;
+}
+#thirdpage #heading .ri-focus-2-line{
+    color: yellow;
+    font-size: 40px;
+    position: absolute;
+    top: -16%;
+    right: -8%;
+}
+#thirdpagelinks{
+    width: 70%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#thirdpagelinks a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: .5s;
+}
+#thirdpagelinks a:hover{
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+#projects{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.projectsBox{
+    width: 32%;
+    height: 30%;
+    background-color: yellow;
+    transition: 1s;
+    cursor: pointer;
+}
+.projectsBox:hover{
+    transform: scale(.9);
+    border: 5px solid black;
+}
+.p1{
+    background-image: url(https://images.unsplash.com/photo-1476891626313-2cecb3820a69?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=357&q=80);
+    background-size: cover;
+    background-position: center;
+}
+.p2{
+    background-image: url(https://images.unsplash.com/photo-1578297886235-c521966ea880?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMGJ1aWxkaW5nc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+}
+.p3
+{
+    background-image: url(https://images.unsplash.com/photo-1532374281774-97f9514fcfea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
+    background-size: cover;
+    background-position: center;
+}
+.p4{
+    background-image: url(https://images.unsplash.com/photo-1473864803180-ca1b3d93c9a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80);
+    background-size: cover;
+    background-position: center;
+}
+.p5{
+    background-image: url(https://images.unsplash.com/photo-1466790003688-001bbee8ec1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-position: center;
+}
+.p6{
+    background-image: url(https://plus.unsplash.com/premium_photo-1661887276625-4658e6719621?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=991&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 0, 0.637);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#overlay p{
+    text-align: center;
+}
+#overlay> .ri-search-line{
+    font-size: 35px;
+}
+.p7{
+    background-image: url(https://images.unsplash.com/photo-1428765048792-aa4bdde46fea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHN3aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+}
+.p8{
+    background-image: url(https://images.unsplash.com/photo-1663316090346-b0c203d5d7ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGJsYWNrJTIwYW5kJTIwd2hpdGUlMjByaXZlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+}
+.p9{
+    background-image: url(https://images.unsplash.com/photo-1503198515498-d0bd9ed16902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#thirdpage>button{
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+    font-size: 10px;
+    background-color: rgb(69, 66, 66);
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+#thirdpage>button:hover{
+    background-color: #000;
+}
